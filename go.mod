@@ -2,7 +2,10 @@ module go-chat
 
 go 1.19
 
-require fyne.io/fyne/v2 v2.3.4
+require (
+	fyne.io/fyne/v2 v2.3.4
+	go.uber.org/fx v1.19.3
+)
 
 require (
 	fyne.io/systray v1.10.1-0.20230403195833-7dc3c09283d6 // indirect
@@ -25,6 +28,10 @@ require (
 	github.com/stretchr/testify v1.8.0 // indirect
 	github.com/tevino/abool v1.2.0 // indirect
 	github.com/yuin/goldmark v1.4.13 // indirect
+	go.uber.org/atomic v1.7.0 // indirect
+	go.uber.org/dig v1.16.1 // indirect
+	go.uber.org/multierr v1.6.0 // indirect
+	go.uber.org/zap v1.23.0 // indirect
 	golang.org/x/image v0.3.0 // indirect
 	golang.org/x/mobile v0.0.0-20211207041440-4e6c2922fdee // indirect
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect

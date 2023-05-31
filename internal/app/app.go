@@ -1,7 +1,10 @@
 package app
 
-import "go-chat/gui"
+import (
+	"go-chat/gui"
+)
 
 func Run() {
-	gui.Render()
+	obj := gui.New()
+	obj.Run()
 }
